@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Win Wheel</title>
+
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="./Winwheel.min.js"></script>
+
+</head>
+<body>
+  <h1>Win Wheel 測試</h1>
+
+  <button onClick="startSpin()">Start</button>
+  <button onClick="resetWheel()">Reset</button>
+
+  <!-- <canvas id="canvas" width="880" height="500"> -->
+  <canvas 
+    id="canvas"
+    width="880" 
+    height="500"
+    data-responsiveMinWidth="180"
+    data-responsiveScaleHeight="true"
+  >
+      Canvas not supported, use another browser.
+  </canvas>
+  
+  <script type="text/javascript" src="./win-wheel.js"></script>
+</body>
+</html>
